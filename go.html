@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mystyle.css">
+    <script src="https://kit.fontawesome.com/337be747ec.js" crossorigin="anonymous"></script>
+    <title>My Supplement Store</title>
+</head> 
+<body>
+    <header class="site-init">
+        <div>
+            <i class="fa-solid fa-bars"></i>
+            </div>
+        <div>
+             <h1>Kahlua's Supplement Store</h1>
+        </div>
+        <nav class="menu">
+            <a href="index.html">Home</a>
+            <a href="menu.html">menu</a>
+            <a href="go.html">to go</a>
+        </nav>
+        <div>
+            <i class="fa-solid fa-cart-arrow-down"></i>"></i>
+        </div>
+    </header>
+
+        <main class="container">
+            <div class="form-flex">
+                <div class="Supplement-month-img">
+                    <img src="Supplements 1.png" alt="">
+                </div>
+                <div class="form-container">
+                    <h2>Supplements</h2>
+                    <form>
+                        <div class="input-control">
+                            <label>size:</label>
+                            <select>
+                                <option value="small">Small</option>
+                                <option value="medium">Medium</option>
+                                <option value="large">Large</option>
+                            </select>
+
+                        </div>
+                        <div class="input-control">
+                            <label>price:</label>
+                            <input type="number">
+                        </div>
+                        <div class="input-control">
+                            <label>quantity:</label>
+                            <input type="number" min="1" max="10">
+                        </div>
+                        <div class="input-control">
+                            <label>Description:</label>
+                            <textarea></textarea>
+                        </div>
+
+                        <button class="btn">Add</button>
+                    </form>
+                </div>
+            </div>
+
+            <div>
+                <h2>Payment</h2>
+                <form>
+                        <div class="input-control">
+                            <label>Credit Card:</label>
+                            <select>
+                                <option value="visa">Visa</option>
+                                <option value="mastercard">MasterCard</option>
+                                <option value="amex">American Express</option>
+                                
+                            </select>
+                        </div>
+                        <div>
+                            <label>Card Number:</label>
+                            <input type="text">
+                        </div>
+                        <div></div>
+                            <label>Experation Date:</label>
+                            <input type="text">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </main>
+</body>
+</html>
