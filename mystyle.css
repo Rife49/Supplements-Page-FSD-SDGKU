@@ -9,12 +9,83 @@ body{
     background-color: olive;
 }
 
- /*utilites*/
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;  
+}
+ 
+ 
+ 
+ 
+    /*utilites*/
 .container{
     width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
+
+/*menu*/
+.menu a{
+    color: black;
+margin-right: 30px;
+}
+    
+
+    /*header*/
+.site-init{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+
+.supplement-month-container{
+    display: flex;
+    align-items: center;
+    height: 500px;
+}
+
+.supplement-month-img{
+    width: 40%;
+}
+
+.supplement-month-text{
+    width: 60%;    
+}
+
+text-flex{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+
+.btn{
+    background-color: black;
+    color: white;
+    padding: 10px;
+   }
+
+   .text-sm{
+    font-size: 14px;
+   }
+
+.text-lg{
+    font-size: 20px;
+   }
+ 
+
+
+
+
+
+
+
+
+
+
 
 /*menu.html*/
 .menu-table,th,td{
@@ -34,3 +105,5 @@ body{
 .error{
     color: red;
 }
+
+
