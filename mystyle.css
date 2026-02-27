@@ -29,7 +29,12 @@ a{
     color: white;
 margin-right:30px;
 }
-    
+   
+@media(max-width:600px){
+    .menu a{
+        display: none;
+    }
+}
 
     /*header*/
 .site-init{
@@ -48,9 +53,34 @@ i{
 
 
 .supplement-month-container{
+    flex-direction: column;
     display: flex;
     align-items: center;
-    height: 500px;
+    height: 600px;
+  }
+
+
+.supplement-month-img{
+    width: 80%;
+}
+
+.supplement-month-text{
+    width: 80%;    
+}
+
+@media(max-width:600px){
+    .supplement-month-container{
+    flex-direction: column ;
+    height: 400px;
+    }
+
+.supplement-month-img{
+    width: 100%;
+}
+
+.supplement-month-text{
+    width: 80%;    
+}
 }
 .all-supplement-container{
     display: flex;
@@ -58,13 +88,21 @@ i{
     justify-content: space-around;
 }
 
-.supplement-month-img{
-    width: 40%;
+.supp-items{
+    width: 200px;
 }
 
-.supplement-month-text{
-    width: 60%;    
+@media(max-width:600px){
+    .all-supplement-container{
+
+        flex-direction: column;
+    }
+    .supp-items{
+    width: 80%;
 }
+}
+
+
 
 text-flex{
     display: flex;
@@ -97,9 +135,7 @@ text-flex{
     padding: 12px;
    }
 
-.supp-items{
-    width: 200px;
-}
+
 
    /*menu.html*/
 .menu-table,th,td{
@@ -144,4 +180,13 @@ text-flex{
 .input-control textarea{
     width:100%;
     padding:5px;
+}
+
+@media(max-width:600px){
+   .form-flex{
+    flex-direction: column;
+} 
+.form-container{
+    width: 100%;
+}
 }
