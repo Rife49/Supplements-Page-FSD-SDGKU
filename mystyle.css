@@ -8,7 +8,6 @@ body{
     font-family: Arial;
     background-color: tan;
 }
-
 img{
     max-width: 100%;
 }
@@ -23,6 +22,7 @@ a{
     margin-left: auto;
     margin-right: auto;
 }
+
 
 /*menu*/
 .menu a{
@@ -52,6 +52,11 @@ i{
     align-items: center;
     height: 500px;
 }
+.all-supplement-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
 
 .supplement-month-img{
     width: 40%;
@@ -69,12 +74,16 @@ text-flex{
 }
 
 .btn{
+    display:inline-block;
     background-color: black;
     color: white;
     padding:10px;
     border:none;
    }
-
+.btn-flex{
+    display:flex;
+    justify-content: flex-end;
+}
    .text-sm{
     font-size: 14px;
    }
@@ -83,15 +92,24 @@ text-flex{
     font-size: 20px;
    }
 
-/*menu.html*/
+   .menu-table{
+    color: white;
+    padding: 12px;
+   }
+
+.supp-items{
+    width: 200px;
+}
+
+   /*menu.html*/
 .menu-table,th,td{
-    border: 1px solid white;
+    border: 1px solid black;
     border-collapse: collapse;
 }
 .menu-table th{ 
-    width:200%;
+    width:200px;
     height:50px;
-    background-color: white;
+    background-color: black;
     color: white;
 }
 .menu-table td{
@@ -101,6 +119,8 @@ text-flex{
 .error{
     color: red;
 }
+
+
 
 /*go.html*/
 .form-flex{
@@ -125,4 +145,3 @@ text-flex{
     width:100%;
     padding:5px;
 }
-
